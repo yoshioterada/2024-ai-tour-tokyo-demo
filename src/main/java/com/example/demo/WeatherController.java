@@ -2,8 +2,9 @@ package com.example.demo;
 
 import com.example.demo.model.*;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import org.springframework.core.io.ClassPathResource;
+
 import org.springframework.core.io.Resource;
+import org.springframework.core.io.ResourceLoader;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RestController;
@@ -14,13 +15,15 @@ import java.util.List;
 @RestController
 public class WeatherController {
 
+    private ResourceLoader resourceLoader;
+
     List<Country> countries;
 
-    WeatherController() {
-        Resource resource = new ClassPathResource("weather.json");
+    WeatherController(ResourceLoader resourceLoader) {
+        Resource resource = resourceLoader.getResource("classpath:weather.json");
         ObjectMapper objectMapper = new ObjectMapper();
         try {
-            countries = objectMapper.readValue(resource.getFile(), objectMapper.getTypeFactory().constructCollectionType(List.class, Country.class));
+            countries = objectMapper.readValue(resource.getInputStream(), objectMapper.getTypeFactory().constructCollectionType(List.class, Country.class));
         } catch (IOException e) {
             e.printStackTrace();
         }
