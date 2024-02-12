@@ -15,8 +15,6 @@ import java.util.List;
 @RestController
 public class WeatherController {
 
-    private ResourceLoader resourceLoader;
-
     List<Country> countries;
 
     WeatherController(ResourceLoader resourceLoader) {
