@@ -1,0 +1,23 @@
+# GitHub Action to build and test the project using Maven
+
+name: CI for the Weather project
+
+on:
+  push:
+    branches: main
+  pull-request:
+    branches: main
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+      - name: Set up JDK
+        uses: actions/setup-java@v4
+        with:
+          java-version: '21'
+          cache: 'maven'
+      - name: Build with Maven
+        run: mvn clean test
