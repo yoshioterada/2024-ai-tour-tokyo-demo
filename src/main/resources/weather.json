@@ -1,0 +1,693 @@
+[
+  {
+    "name": "England",
+    "cities": [
+      {
+        "name": "London",
+        "weather": {
+          "January": {
+            "high": 45,
+            "low": 36
+          },
+          "February": {
+            "high": 46,
+            "low": 36
+          },
+          "March": {
+            "high": 50,
+            "low": 39
+          },
+          "April": {
+            "high": 54,
+            "low": 42
+          },
+          "May": {
+            "high": 60,
+            "low": 47
+          },
+          "June": {
+            "high": 64,
+            "low": 52
+          },
+          "July": {
+            "high": 68,
+            "low": 56
+          },
+          "August": {
+            "high": 68,
+            "low": 56
+          },
+          "September": {
+            "high": 63,
+            "low": 52
+          },
+          "October": {
+            "high": 57,
+            "low": 47
+          },
+          "November": {
+            "high": 50,
+            "low": 42
+          },
+          "December": {
+            "high": 46,
+            "low": 38
+          }
+        }
+      }
+    ]
+  },
+  {
+    "name": "France",
+    "cities": [
+      {
+        "name": "Paris",
+        "weather": {
+          "January": {
+            "high": 45,
+            "low": 36
+          },
+          "February": {
+            "high": 47,
+            "low": 36
+          },
+          "March": {
+            "high": 53,
+            "low": 39
+          },
+          "April": {
+            "high": 58,
+            "low": 43
+          },
+          "May": {
+            "high": 64,
+            "low": 49
+          },
+          "June": {
+            "high": 70,
+            "low": 54
+          },
+          "July": {
+            "high": 75,
+            "low": 58
+          },
+          "August": {
+            "high": 74,
+            "low": 58
+          },
+          "September": {
+            "high": 68,
+            "low": 54
+          },
+          "October": {
+            "high": 59,
+            "low": 48
+          },
+          "November": {
+            "high": 51,
+            "low": 42
+          },
+          "December": {
+            "high": 46,
+            "low": 37
+          }
+        }
+      }
+    ]
+  },
+  {
+    "name": "Germany",
+    "cities": [
+      {
+        "name": "Berlin",
+        "weather": {
+          "January": {
+            "high": 37,
+            "low": 29
+          },
+          "February": {
+            "high": 39,
+            "low": 29
+          },
+          "March": {
+            "high": 46,
+            "low": 34
+          },
+          "April": {
+            "high": 54,
+            "low": 39
+          },
+          "May": {
+            "high": 64,
+            "low": 48
+          },
+          "June": {
+            "high": 70,
+            "low": 54
+          },
+          "July": {
+            "high": 73,
+            "low": 57
+          },
+          "August": {
+            "high": 73,
+            "low": 57
+          },
+          "September": {
+            "high": 65,
+            "low": 50
+          },
+          "October": {
+            "high": 55,
+            "low": 43
+          },
+          "November": {
+            "high": 45,
+            "low": 36
+          },
+          "December": {
+            "high": 38,
+            "low": 31
+          }
+        }
+      }
+    ]
+  },
+  {
+    "name": "Peru",
+    "cities": [
+      {
+        "name": "Lima",
+        "weather": {
+          "January": {
+            "high": 75,
+            "low": 66
+          },
+          "February": {
+            "high": 77,
+            "low": 68
+          },
+          "March": {
+            "high": 78,
+            "low": 68
+          },
+          "April": {
+            "high": 78,
+            "low": 67
+          },
+          "May": {
+            "high": 76,
+            "low": 64
+          },
+          "June": {
+            "high": 75,
+            "low": 63
+          },
+          "July": {
+            "high": 74,
+            "low": 62
+          },
+          "August": {
+            "high": 74,
+            "low": 62
+          },
+          "September": {
+            "high": 75,
+            "low": 63
+          },
+          "October": {
+            "high": 77,
+            "low": 65
+          },
+          "November": {
+            "high": 77,
+            "low": 66
+          },
+          "December": {
+            "high": 76,
+            "low": 66
+          }
+        }
+      }
+    ]
+  },
+  {
+    "name": "Portugal",
+    "cities": [
+      {
+        "name": "Lisbon",
+        "weather": {
+          "January": {
+            "high": 57,
+            "low": 46
+          },
+          "February": {
+            "high": 59,
+            "low": 47
+          },
+          "March": {
+            "high": 61,
+            "low": 49
+          },
+          "April": {
+            "high": 65,
+            "low": 52
+          },
+          "May": {
+            "high": 71,
+            "low": 55
+          },
+          "June": {
+            "high": 77,
+            "low": 60
+          },
+          "July": {
+            "high": 81,
+            "low": 64
+          },
+          "August": {
+            "high": 81,
+            "low": 64
+          },
+          "September": {
+            "high": 77,
+            "low": 61
+          },
+          "October": {
+            "high": 69,
+            "low": 58
+          },
+          "November": {
+            "high": 63,
+            "low": 53
+          },
+          "December": {
+            "high": 58,
+            "low": 48
+          }
+        }
+      },
+      {
+        "name": "Porto",
+        "weather": {
+          "January": {
+            "high": 57,
+            "low": 45
+          },
+          "February": {
+            "high": 59,
+            "low": 46
+          },
+          "March": {
+            "high": 61,
+            "low": 48
+          },
+          "April": {
+            "high": 65,
+            "low": 51
+          },
+          "May": {
+            "high": 70,
+            "low": 55
+          },
+          "June": {
+            "high": 75,
+            "low": 59
+          },
+          "July": {
+            "high": 79,
+            "low": 63
+          },
+          "August": {
+            "high": 79,
+            "low": 63
+          },
+          "September": {
+            "high": 75,
+            "low": 60
+          },
+          "October": {
+            "high": 67,
+            "low": 57
+          },
+          "November": {
+            "high": 61,
+            "low": 52
+          },
+          "December": {
+            "high": 57,
+            "low": 47
+          }
+        }
+      }
+    ]
+  },
+  {
+    "name": "Italy",
+    "cities": [
+      {
+        "name": "Montepulciano",
+        "weather": {
+          "January": {
+            "high": 50,
+            "low": 32
+          },
+          "February": {
+            "high": 54,
+            "low": 34
+          },
+          "March": {
+            "high": 58,
+            "low": 38
+          },
+          "April": {
+            "high": 63,
+            "low": 42
+          },
+          "May": {
+            "high": 71,
+            "low": 49
+          },
+          "June": {
+            "high": 78,
+            "low": 55
+          },
+          "July": {
+            "high": 85,
+            "low": 60
+          },
+          "August": {
+            "high": 85,
+            "low": 60
+          },
+          "September": {
+            "high": 78,
+            "low": 56
+          },
+          "October": {
+            "high": 68,
+            "low": 48
+          },
+          "November": {
+            "high": 58,
+            "low": 41
+          },
+          "December": {
+            "high": 51,
+            "low": 35
+          }
+        }
+      }
+    ]
+  },
+  {
+    "name": "Spain",
+    "cities": [
+      {
+        "name": "Seville",
+        "weather": {
+          "January": {
+            "high": 61,
+            "low": 41
+          },
+          "February": {
+            "high": 65,
+            "low": 43
+          },
+          "March": {
+            "high": 71,
+            "low": 46
+          },
+          "April": {
+            "high": 77,
+            "low": 50
+          },
+          "May": {
+            "high": 84,
+            "low": 56
+          },
+          "June": {
+            "high": 93,
+            "low": 63
+          },
+          "July": {
+            "high": 98,
+            "low": 69
+          },
+          "August": {
+            "high": 98,
+            "low": 69
+          },
+          "September": {
+            "high": 89,
+            "low": 65
+          },
+          "October": {
+            "high": 79,
+            "low": 58
+          },
+          "November": {
+            "high": 69,
+            "low": 51
+          },
+          "December": {
+            "high": 63,
+            "low": 45
+          }
+        }
+      }
+    ]
+  },
+  {
+    "name": "Greece",
+    "cities": [
+      {
+        "name": "Athens",
+        "weather": {
+          "January": {
+            "high": 56,
+            "low": 45
+          },
+          "February": {
+            "high": 58,
+            "low": 46
+          },
+          "March": {
+            "high": 62,
+            "low": 49
+          },
+          "April": {
+            "high": 69,
+            "low": 54
+          },
+          "May": {
+            "high": 77,
+            "low": 61
+          },
+          "June": {
+            "high": 86,
+            "low": 69
+          },
+          "July": {
+            "high": 92,
+            "low": 74
+          },
+          "August": {
+            "high": 92,
+            "low": 74
+          },
+          "September": {
+            "high": 85,
+            "low": 68
+          },
+          "October": {
+            "high": 76,
+            "low": 60
+          },
+          "November": {
+            "high": 66,
+            "low": 52
+          },
+          "December": {
+            "high": 58,
+            "low": 47
+          }
+        }
+      }
+    ]
+  },
+  {
+    "name": "Turkey",
+    "cities": [
+      {
+        "name": "Istanbul",
+        "weather": {
+          "January": {
+            "high": 44,
+            "low": 36
+          },
+          "February": {
+            "high": 46,
+            "low": 37
+          },
+          "March": {
+            "high": 52,
+            "low": 41
+          },
+          "April": {
+            "high": 60,
+            "low": 47
+          },
+          "May": {
+            "high": 68,
+            "low": 55
+          },
+          "June": {
+            "high": 75,
+            "low": 62
+          },
+          "July": {
+            "high": 79,
+            "low": 66
+          },
+          "August": {
+            "high": 79,
+            "low": 66
+          },
+          "September": {
+            "high": 73,
+            "low": 60
+          },
+          "October": {
+            "high": 64,
+            "low": 53
+          },
+          "November": {
+            "high": 54,
+            "low": 44
+          },
+          "December": {
+            "high": 47,
+            "low": 38
+          }
+        }
+      }
+    ]
+  },
+  {
+    "name": "Croatia",
+    "cities": [
+      {
+        "name": "Dubrovnik",
+        "weather": {
+          "January": {
+            "high": 52,
+            "low": 42
+          },
+          "February": {
+            "high": 54,
+            "low": 43
+          },
+          "March": {
+            "high": 58,
+            "low": 47
+          },
+          "April": {
+            "high": 64,
+            "low": 52
+          },
+          "May": {
+            "high": 72,
+            "low": 58
+          },
+          "June": {
+            "high": 79,
+            "low": 65
+          },
+          "July": {
+            "high": 84,
+            "low": 70
+          },
+          "August": {
+            "high": 84,
+            "low": 70
+          },
+          "September": {
+            "high": 77,
+            "low": 65
+          },
+          "October": {
+            "high": 68,
+            "low": 57
+          },
+          "November": {
+            "high": 59,
+            "low": 48
+          },
+          "December": {
+            "high": 54,
+            "low": 44
+          }
+        }
+      }
+    ]
+  },
+  {
+    "name": "Czech Republic",
+    "cities": [
+      {
+        "name": "Prague",
+        "weather": {
+          "January": {
+            "high": 34,
+            "low": 26
+          },
+          "February": {
+            "high": 37,
+            "low": 27
+          },
+          "March": {
+            "high": 45,
+            "low": 33
+          },
+          "April": {
+            "high": 56,
+            "low": 42
+          },
+          "May": {
+            "high": 66,
+            "low": 51
+          },
+          "June": {
+            "high": 72,
+            "low": 56
+          },
+          "July": {
+            "high": 76,
+            "low": 60
+          },
+          "August": {
+            "high": 75,
+            "low": 59
+          },
+          "September": {
+            "high": 66,
+            "low": 52
+          },
+          "October": {
+            "high": 56,
+            "low": 43
+          },
+          "November": {
+            "high": 44,
+            "low": 35
+          },
+          "December": {
+            "high": 36,
+            "low": 28
+          }
+        }
+      }
+    ]
+  }
+]
