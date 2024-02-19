@@ -57,4 +57,17 @@ public class WeatherController {
                 .findFirst()
                 .orElse(null);
     }
+
+    @GetMapping("/countries/{country}/{city}")
+    public City getCity(@PathVariable String country, @PathVariable String city) {
+        final String countryCapitalized = country.substring(0, 1).toUpperCase() + country.substring(1);
+        final String cityCapitalized = city.substring(0, 1).toUpperCase() + city.substring(1);
+
+        return countries.stream()
+                .filter(c -> c.name.equals(countryCapitalized))
+                .flatMap(c -> c.cities.stream())
+                .filter(ci -> ci.name.equals(cityCapitalized))
+                .findFirst()
+                .orElse(null);
+    }
 }
