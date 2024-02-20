@@ -57,4 +57,65 @@ public class WeatherController {
                 .findFirst()
                 .orElse(null);
     }
+
+    @GetMapping("/countries/{country}/{city}")  
+    public Weather getWeather(@PathVariable String country, @PathVariable String city) {
+        final String countryCapitalized = country.substring(0, 1).toUpperCase() + country.substring(1);
+        final String cityCapitalized = city.substring(0, 1).toUpperCase() + city.substring(1);
+
+        return countries.stream()
+                .filter(c -> c.name.equals(countryCapitalized))
+                .flatMap(c -> c.cities.stream())
+                .filter(ci -> ci.name.equals(cityCapitalized))
+                .map(ci -> ci.weather.get("January"))
+                .findFirst()
+                .orElse(null);
+    }
+
+    // 閏年の判定
+    public static boolean isLeapYear(int year) {
+        return year % 4 == 0 && (year % 100 != 0 || year % 400 == 0);
+    }
+
+    // 月の日数を返す
+    public static int getDaysOfMonth(int year, int month) {
+        int[] days = {31, isLeapYear(year) ? 29 : 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31};
+        return days[month - 1];
+    }
+
+    // 月の日数を返す
+    public static int getDaysOfMonth(String month) {
+        int[] days = {31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31};
+        return days[Integer.parseInt(month) - 1];
+    }
+
+    // 月の日数を返す
+    public static int getDaysOfMonth(String year, String month) {
+        return getDaysOfMonth(Integer.parseInt(year), Integer.parseInt(month));
+    }
+
+    // 月の日数を返す
+    public static int getDaysOfMonth(int year, String month) {
+        return getDaysOfMonth(year, Integer.parseInt(month));
+    }
+
+    // 月の日数を返す
+    public static int getDaysOfMonth(String year, int month) {
+        return getDaysOfMonth(Integer.parseInt(year), month);
+    }
+
+    // 月の日数を返す
+    public static int getDaysOfMonth(String year, int month) {
+        return getDaysOfMonth(Integer.parseInt(year), month);
+    }
+
+    // 月の日数を返す
+    public static int getDaysOfMonth(int year, int month) {
+        int[] days = {31, isLeapYear(year) ? 29 : 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31};
+        return days[month - 1];
+    }
+
+    // 月の日数を返す
+    public static int getDaysOfMonth(String month) {
+        int[] days = {31, 28, 31, 30, 31, 30, 31,
 }
